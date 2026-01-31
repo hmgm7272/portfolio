@@ -1,0 +1,8 @@
+@media (max-width: 900px) {
+  .menuBox {
+    width: min(92vw, 600px) !important; /* だいたい90%感 + 上限 */
+    margin: 0 auto;                    /* 中央寄せ */
+    border: 1px solid #111 !important; /* 箱の枠線（左右も出る） */
+    background: #fff;
+  }
+}

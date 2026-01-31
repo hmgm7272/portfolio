@@ -1,0 +1,12 @@
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+
+  margin: 3rem 0;
+
+  width: 100%;
+  max-width: var(--content-width);
+  margin: 3rem auto;
+  box-sizing: border-box;
+}

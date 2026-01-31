@@ -1,0 +1,50 @@
+.media {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  border-bottom: 1px solid #111;
+}
+
+.no-image {
+  position: absolute;
+  inset: 0;
+  background: #f2f2f2;
+  display: grid;
+  place-items: center;
+  border-radius: 6px;
+}
+
+.no-image .icon {
+  font-size: 48px;
+  color: #111;
+}
+
+.card {
+  appearance: none;
+  border: 1px solid #111;
+  background: transparent;
+  padding: 0;
+  text-align: left;
+  cursor: pointer;
+  width: 100%;
+
+    background-color: #fff;
+}
+
+.card h2 {
+  font-size: clamp(0.8rem, 2.5vw, 1rem);
+  font-weight: 400;
+  margin: 0.5rem;
+}
+
+.card:hover h2 {
+  color: rgb(149, 139, 255);
+}
+
