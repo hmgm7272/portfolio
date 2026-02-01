@@ -6,7 +6,7 @@ export default function Home() {
         <div>
             <h1>Home</h1>
             <Carousel
-                images={["/images/inu1.jpg", "/images/inu2.png", "/images/inu3.jpg"]}
+                images={["/images/IMG_5959.jpg", "/images/IMG_6790.jpg"]}
                 width={600}
                 height={320}
             />
