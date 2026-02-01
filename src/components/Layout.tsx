@@ -7,7 +7,7 @@ export default function Layout() {
         { label: "home", to: "/" },
         { label: "about", to: "/about" },
         { label: "works", to: "/works" },
-        { label: "project", to: "/project" },
+        { label: "wips", to: "/wips" },
     ];
 
     return (

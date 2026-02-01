@@ -4,11 +4,11 @@ import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Works from "./pages/Works";
-import Project from "./pages/Project";
+import Wips from "./pages/Wips";
 import Detail from "./pages/Detail";
 
 import { works } from "./data/works";
-import { projects } from "./data/projects";
+import { wips } from "./data/wips";
 
 export default function App() {
   return (
@@ -17,10 +17,10 @@ export default function App() {
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="works" element={<Works />} />
-        <Route path="project" element={<Project />} />
+        <Route path="Wips" element={<Wips />} />
 
         <Route path="works/:id" element={<Detail items={works} backTo="/works" />} />
-        <Route path="project/:id" element={<Detail items={projects} backTo="/project" />} />
+        <Route path="wips/:id" element={<Detail items={wips} backTo="/wips" />} />
       </Route>
     </Routes>
   );
