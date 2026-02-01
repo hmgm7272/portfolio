@@ -65,7 +65,7 @@ export default function Carousel({ images, width = 600, height = 320 }: Carousel
               />
             ) : isAudio(src) ? (
               <div className="carousel-audio swiper-no-swiping">
-                <audio className="carousel-audio__player" src={src} controls />
+                <audio className="carousel-audio__player" src={src} controls preload="metadata"/>
               </div>
             ) : isImage(src) ? (
               <img src={src} alt={`slide-${i}`} className="carousel-image" />
